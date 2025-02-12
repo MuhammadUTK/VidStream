@@ -2,7 +2,7 @@
   "name": "vidstream",
   "version": "1.0.0",
   "description": "VidStream is a video streaming app built with the MENR stack (MongoDB, Express.js, Node.js, React.js), using the YouTube API for seamless video integration. It offers custom playlists, advanced search, and a sleek UI, enhancing the YouTube experience with a fast and intuitive interface. ",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start:dev": "nodemon index.js"
@@ -29,5 +29,12 @@
   "devDependencies": {
     "nodemon": "^3.1.9",
     "prettier": "^3.5.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
   }
 }
